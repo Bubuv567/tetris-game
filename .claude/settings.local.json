@@ -25,7 +25,12 @@
       "Bash(cp -r /tmp/bazi-temp/* /e/my-project/bazi/)",
       "Bash(cp /tmp/bazi-temp/.gitignore /e/my-project/bazi/)",
       "Bash(rm -rf /e/my-project/bazi/.git /e/my-project/bazi/.idea /e/my-project/bazi/.vscode)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(py --version)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(pip uninstall *)",
+      "Bash(curl -s -X POST http://127.0.0.1:5000/api/metaphysic -H \"Content-Type: application/json\" -d \"{\\\\\"year\\\\\":1990,\\\\\"month\\\\\":5,\\\\\"day\\\\\":15,\\\\\"hour\\\\\":12}\")"
     ]
   }
 }

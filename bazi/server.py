@@ -1,12 +1,18 @@
 #!flask/bin/python
-from flask import Flask, jsonify, make_response, abort, request
+from flask import Flask, jsonify, make_response, abort, request, send_from_directory
 from wuxingData import wuxingDic
 import main
 import characters
 import metaphysic
 import readDic
+import os
 
 app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return send_from_directory(os.path.dirname(__file__), 'index.html')
 
 
 @app.route('/api/characters/gender/<gender>', methods=['GET'])
