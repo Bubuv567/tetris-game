@@ -3,7 +3,29 @@
     "allow": [
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(scoop --version)",
+      "Bash(winget install *)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe auth *)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe repo *)",
+      "Bash(start *)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe search *)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe api *)",
+      "Read(//tmp/**)",
+      "Bash(cp -r /tmp/i-ching-temp/* /e/my-project/i-ching/)",
+      "Bash(rm -rf /e/my-project/i-ching/.git)",
+      "Bash(cp -r /tmp/bazi-temp/* /e/my-project/bazi/)",
+      "Bash(cp /tmp/bazi-temp/.gitignore /e/my-project/bazi/)",
+      "Bash(rm -rf /e/my-project/bazi/.git /e/my-project/bazi/.idea /e/my-project/bazi/.vscode)",
+      "Bash(git push *)"
     ]
   }
 }
