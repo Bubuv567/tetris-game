@@ -30,7 +30,12 @@
       "Bash(pip install *)",
       "Bash(python *)",
       "Bash(pip uninstall *)",
-      "Bash(curl -s -X POST http://127.0.0.1:5000/api/metaphysic -H \"Content-Type: application/json\" -d \"{\\\\\"year\\\\\":1990,\\\\\"month\\\\\":5,\\\\\"day\\\\\":15,\\\\\"hour\\\\\":12}\")"
+      "Bash(curl -s -X POST http://127.0.0.1:5000/api/metaphysic -H \"Content-Type: application/json\" -d \"{\\\\\"year\\\\\":1990,\\\\\"month\\\\\":5,\\\\\"day\\\\\":15,\\\\\"hour\\\\\":12}\")",
+      "Bash(curl -s http://127.0.0.1:5000/)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/DongSky/zhHanSequence/contents/bihua.txt --jq '{size, encoding, content}')",
+      "Bash(cp /tmp/zhHanSequence-temp/bihua.txt /e/my-project/fortune/)",
+      "Bash(cp /tmp/zhHanSequence-temp/LICENSE /e/my-project/fortune/LICENSE-zhHanSequence)",
+      "Bash(curl -s -X POST http://127.0.0.1:5001/api/fortune -H \"Content-Type: application/json\" -d \"{\\\\\"name\\\\\":\\\\\"李明\\\\\",\\\\\"surname\\\\\":\\\\\"李\\\\\",\\\\\"givenName\\\\\":\\\\\"明\\\\\",\\\\\"year\\\\\":1990,\\\\\"month\\\\\":5,\\\\\"day\\\\\":15,\\\\\"hour\\\\\":12}\")"
     ]
   }
 }
